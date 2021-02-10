@@ -2,7 +2,7 @@
   "name": "collibris-frontend",
   "version": "1.0.0",
   "description": "Ecole le collibris - A Tailwind CSS and React UI Kit and Admin by Igor J.Luc Ndiramiye",
-  "repository": "https://github.com/creativetimofficial/notus-react",
+  "repository": "https://github.com/Nigorjeanluc/lecolibris",
   "license": "MIT",
   "dependencies": {
     "@fortawesome/fontawesome-free": "5.14.0",
