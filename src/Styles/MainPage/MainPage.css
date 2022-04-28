@@ -1,3 +1,4 @@
+@import url("https://fonts.googleapis.com/css2?family=Pacifico&display=swap");
 .mainPage {
   background-color: #F2F2F2;
 }
@@ -17,6 +18,7 @@
 .mainPage .logoSection img {
   width: 320px;
   padding: 30px;
+  height: 280px;
 }
 
 .mainPage .navSection a {
@@ -40,5 +42,65 @@
 
 .mainPage .sliderSection {
   padding: 40px 30px 30px 30px;
+}
+
+.mainPage .banner {
+  margin: 20px 0 20px 0;
+  border: 2px solid #1a1a1a;
+  border-radius: 20px;
+}
+
+.mainPage .banner h1 {
+  padding: 20px 10px 20px 10px;
+  font-family: "Pacifico", cursive;
+  text-align: center;
+}
+
+.mainPage .cards .card1 {
+  background-color: #1A7341;
+  border: none;
+}
+
+.mainPage .cards .card1 img {
+  padding: 10px;
+  width: 100%;
+}
+
+.mainPage .cards .card1 h2 {
+  text-align: center;
+  margin-top: 10px;
+  color: #f6efe7;
+}
+
+.mainPage .cards .card2 {
+  background-color: #1A7341;
+  border: none;
+}
+
+.mainPage .cards .card2 img {
+  padding: 10px;
+  width: 100%;
+}
+
+.mainPage .cards .card2 h2 {
+  text-align: center;
+  margin-top: 10px;
+  color: #f6efe7;
+}
+
+.mainPage .cards .card3 {
+  background-color: #1A7341;
+  border: none;
+}
+
+.mainPage .cards .card3 img {
+  padding: 10px;
+  width: 100%;
+}
+
+.mainPage .cards .card3 h2 {
+  text-align: center;
+  margin-top: 10px;
+  color: #f6efe7;
 }
 /*# sourceMappingURL=MainPage.css.map */

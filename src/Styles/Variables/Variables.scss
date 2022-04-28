@@ -1,3 +1,6 @@
+// Google fonts
+@import url('https://fonts.googleapis.com/css2?family=Pacifico&display=swap');
+
 $blackColor: rgb(26, 26, 26);
 $darkColor: #011826;
 $darkBlueColor: #024873;
@@ -10,6 +13,7 @@ $greenColor: #1A7341;
 // FONTS
 $titleFont: Arial, Helvetica, sans-serif;
 $bodyFont: "Times New Roman", Times, serif;
+$bannerFont: 'Pacifico', cursive;
 
 @mixin buttonStyle($color, $fontSize) {
     width: 200px;
@@ -19,4 +23,14 @@ $bodyFont: "Times New Roman", Times, serif;
     border-radius: 8px;
     color: $whiteColor;
     font-size: $fontSize;
+}
+
+@mixin card($color, $txtColor) {
+    background-color: $color;
+    border: none;
+    h2 {
+        text-align: center;
+        margin-top: 10px;
+        color: $txtColor;
+    }
 }
