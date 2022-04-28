@@ -1,0 +1,10 @@
+{
+    "version": 3,
+    "mappings": "AAEA,AACI,QADI,CACJ,GAAG,CAAA;EACC,aAAa,EAAE,IAAI;CACtB",
+    "sources": [
+        "Carousel.scss",
+        "../Variables/Variables.scss"
+    ],
+    "names": [],
+    "file": "Carousel.css"
+}

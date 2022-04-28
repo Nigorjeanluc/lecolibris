@@ -1,19 +1,36 @@
 @import "../Variables/Variables.scss";
 
 .mainPage {
-    display: flex;
-    justify-content: center;
-    align-items: center;
+    background-color: $backGroundWhiteColor;
+    .logoSection {
+        display: flex;
+        justify-content: center;
+        align-items: center;
 
-    h1 {
-        color: $redColor;
+        img {
+            width: 320px;
+            padding: 30px;
+        }
     }
-
-    button {
-        @include buttonStyle($redColor, 35px);
+    .navSection {
+        a {
+            text-align: center;
+            background-color: none;
+            font-size: 11px;
+            color: $darkColor;
+            font-weight: 800;
+        }
+        a:hover {
+            background-color: $darkBlueColor;
+            border-radius: 20px;
+            color: $whiteColor !important;
+        }
+        a.active {
+            background-color: $darkColor;
+            border-radius: 20px;
+        }
     }
-}
-
-button {
-    @include buttonStyle(purple, 35px);
+    .sliderSection {
+        padding: 40px 30px 30px 30px;
+    }
 }

@@ -5,6 +5,7 @@ import AnimatedRoutes from "./Components/AnimatedRoutes";
 import TopNavbar from "./Components/TopNavbar";
 
 import './Styles/App/App.css';
+import 'bootstrap/dist/css/bootstrap.min.css';
 
 function App() {
   return (

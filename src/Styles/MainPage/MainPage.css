@@ -1,4 +1,8 @@
 .mainPage {
+  background-color: #F2F2F2;
+}
+
+.mainPage .logoSection {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -10,27 +14,31 @@
           align-items: center;
 }
 
-.mainPage h1 {
-  color: #ae0202;
+.mainPage .logoSection img {
+  width: 320px;
+  padding: 30px;
 }
 
-.mainPage button {
-  width: 200px;
-  height: 40px;
-  background-color: #ae0202;
-  border: none;
-  border-radius: 8px;
-  color: #f6efe7;
-  font-size: 35px;
+.mainPage .navSection a {
+  text-align: center;
+  background-color: none;
+  font-size: 11px;
+  color: #011826;
+  font-weight: 800;
 }
 
-button {
-  width: 200px;
-  height: 40px;
-  background-color: purple;
-  border: none;
-  border-radius: 8px;
-  color: #f6efe7;
-  font-size: 35px;
+.mainPage .navSection a:hover {
+  background-color: #024873;
+  border-radius: 20px;
+  color: #f6efe7 !important;
+}
+
+.mainPage .navSection a.active {
+  background-color: #011826;
+  border-radius: 20px;
+}
+
+.mainPage .sliderSection {
+  padding: 40px 30px 30px 30px;
 }
 /*# sourceMappingURL=MainPage.css.map */

@@ -1,7 +1,7 @@
 .topNavbar {
   width: 100%;
   height: 30px;
-  background-color: #b9bfa4;
+  background-color: #1A7341;
 }
 
 .topNavbar .links {
@@ -9,16 +9,10 @@
 }
 
 .topNavbar .links a {
-  color: #1a1a1a;
+  color: #f6efe7;
   margin: 5px;
   text-decoration: none;
   font-size: 14px;
   font-weight: bold;
-}
-
-body {
-  margin: 0;
-  padding: 0;
-  background-color: #9cdbff;
 }
 /*# sourceMappingURL=TopNavbar.css.map */
