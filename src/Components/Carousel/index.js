@@ -3,13 +3,17 @@ import { Carousel } from 'react-bootstrap'
 
 import '../../Styles/Carousel/Carousel.css'
 
+import image1 from '../../assets/image12.jpg'
+import image2 from '../../assets/image10.jpg'
+import image3 from '../../assets/image1.jpg'
+
 function Slider() {
   return (
     <Carousel className="wrapper" fade variant="dark">
-        <Carousel.Item interval={1000}>
+        <Carousel.Item interval={3000}>
             <img
             className="d-block w-100"
-            src="https://via.placeholder.com/800x500/09f/fff.png"
+            src={image1}
             alt="First slide"
             />
             <Carousel.Caption>
@@ -17,10 +21,10 @@ function Slider() {
             {/* <p>Nulla vitae elit libero, a pharetra augue mollis interdum.</p> */}
             </Carousel.Caption>
         </Carousel.Item>
-        <Carousel.Item interval={1000}>
+        <Carousel.Item interval={3000}>
             <img
             className="d-block w-100"
-            src="https://via.placeholder.com/800x500/09f/fff.png"
+            src={image2}
             alt="Second slide"
             />
             <Carousel.Caption>
@@ -28,10 +32,10 @@ function Slider() {
             {/* <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p> */}
             </Carousel.Caption>
         </Carousel.Item>
-        <Carousel.Item interval={1000}>
+        <Carousel.Item interval={3000}>
             <img
             className="d-block w-100"
-            src="https://via.placeholder.com/800x500/09f/fff.png"
+            src={image3}
             alt="Third slide"
             />
             <Carousel.Caption>
