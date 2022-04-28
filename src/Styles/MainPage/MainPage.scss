@@ -39,34 +39,82 @@
         margin: 20px 0 20px 0;
         border: 2px solid $blackColor;
         border-radius: 20px;
+        padding: 20px 10px 20px 10px;
+        h2 {
+            font-family: $bannerFont2;
+            text-align: center;
+        }
         h1 {
-            padding: 20px 10px 20px 10px;
             font-family: $bannerFont;
             text-align: center;
+            font-size: medium;
         }
     }
 
     .cards {
+        margin-top: 20px;
+        margin-bottom: 30px;
+        .padCards {
+            max-width: 700px;
+            margin: auto;
+            border: none;
+        }
         .card1 {
+            @include card($card1Color);
             img {
                 padding: 10px;
                 width: 100%;
             }
-            @include card($greenColor, $whiteColor);
+            h2 {
+                text-align: center;
+                padding: 10px;
+                color: $whiteColor;
+                font-size: medium;
+            }
         }
         .card2 {
+            @include card($card2Color);
             img {
                 padding: 10px;
                 width: 100%;
             }
-            @include card($greenColor, $whiteColor);
+            h2 {
+                text-align: center;
+                padding: 10px;
+                color: $whiteColor;
+                font-size: medium;
+            }
         }
         .card3 {
+            @include card($card3Color);
             img {
                 padding: 10px;
                 width: 100%;
             }
-            @include card($greenColor, $whiteColor);
+            h2 {
+                text-align: center;
+                padding: 10px;
+                color: $whiteColor;
+                font-size: medium;
+            }
+        }
+    }
+    .overall-view{
+        max-width: 900px;
+        margin: auto;
+        border: none;
+        .gradient-pattern {
+            background: linear-gradient(135deg, #333 25%, transparent 25%) -50px 0,
+            linear-gradient(225deg, #333 25%, transparent 25%) -50px 0,
+            linear-gradient(315deg, #333 25%, transparent 25%),
+            linear-gradient(45deg, #333 25%, transparent 25%);
+            background-size: 100px 100px;
+            background-color: $whiteColor;
+            padding: 22px;
+            .pannel-wrapper {
+                height: 300px;
+                background-color: #fff;
+            }
         }
     }
 }

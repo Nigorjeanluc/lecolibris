@@ -1,5 +1,6 @@
 // Google fonts
 @import url('https://fonts.googleapis.com/css2?family=Pacifico&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Satisfy&display=swap');
 
 $blackColor: rgb(26, 26, 26);
 $darkColor: #011826;
@@ -9,11 +10,17 @@ $redColor: rgb(174, 2, 2);
 $greyColor: rgb(185, 191, 164);
 $backGroundWhiteColor: #F2F2F2;
 $greenColor: #1A7341;
+$card1Color: #0367A6;
+$card2Color: #F2B705;
+$card3Color: #A6290D;
+$card4Color: #4F7302;
+$card5Color: #F27405;
 
 // FONTS
 $titleFont: Arial, Helvetica, sans-serif;
 $bodyFont: "Times New Roman", Times, serif;
 $bannerFont: 'Pacifico', cursive;
+$bannerFont2: 'Satisfy', cursive;
 
 @mixin buttonStyle($color, $fontSize) {
     width: 200px;
@@ -25,12 +32,7 @@ $bannerFont: 'Pacifico', cursive;
     font-size: $fontSize;
 }
 
-@mixin card($color, $txtColor) {
+@mixin card($color) {
     background-color: $color;
     border: none;
-    h2 {
-        text-align: center;
-        margin-top: 10px;
-        color: $txtColor;
-    }
 }

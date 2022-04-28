@@ -1,5 +1,3 @@
-// import Navbar from "./Components/Navbar";
-import MainPage from "./Components/MainPage";
 import { BrowserRouter as Router } from "react-router-dom";
 import AnimatedRoutes from "./Components/AnimatedRoutes";
 import TopNavbar from "./Components/TopNavbar";
