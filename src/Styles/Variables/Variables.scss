@@ -1,6 +1,7 @@
 // Google fonts
 @import url('https://fonts.googleapis.com/css2?family=Pacifico&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Satisfy&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Catamaran:wght@900&display=swap');
 
 $blackColor: rgb(26, 26, 26);
 $darkColor: #011826;
@@ -21,6 +22,7 @@ $titleFont: Arial, Helvetica, sans-serif;
 $bodyFont: "Times New Roman", Times, serif;
 $bannerFont: 'Pacifico', cursive;
 $bannerFont2: 'Satisfy', cursive;
+$bannerFont3: 'Catamaran', cursive;
 
 @mixin buttonStyle($color, $fontSize) {
     width: 200px;
@@ -35,4 +37,15 @@ $bannerFont2: 'Satisfy', cursive;
 @mixin card($color) {
     background-color: $color;
     border: none;
+}
+
+@mixin panel($color) {
+    background-color: $color;
+    border-radius: 15px;
+    padding: 10px;
+    height: 250px;
+
+    ul {
+        list-style-type: square;
+    }
 }

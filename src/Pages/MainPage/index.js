@@ -1,6 +1,6 @@
 import React from 'react';
 import {motion} from "framer-motion";
-import { Container, Row, Col, Nav } from 'react-bootstrap';
+import { Row, Col, Nav } from 'react-bootstrap';
 
 import logo from '../../assets/logo.png';
 import image1 from '../../assets/image2.jpg';
@@ -21,15 +21,14 @@ function MainPage() {
       // animate={{width: "100%"}}
       // exit={{x: window.innerWidth, transition: {duration: 0.1 }}}
     >
-      <Container fluid>
         <Row className="mainPage">
           <Col md={4} lg={4}>
             <div className="logoSection">
               <img alt="logo" src={logo} />
             </div>
             <div className="navSection">
-              <Nav variant="pills" defaultActiveKey="/home" className="flex-column">
-                <Nav.Link href="/home">Acceuill</Nav.Link>
+              <Nav defaultActiveKey="/" className="flex-column">
+                <Nav.Link href="/">Acceuil</Nav.Link>
                 <Nav.Link eventKey="link-1">Notre Ecole</Nav.Link>
                 <Nav.Link eventKey="link-2">Enseignement</Nav.Link>
                 <Nav.Link eventKey="link-3">Vie Scolaire</Nav.Link>
@@ -75,20 +74,62 @@ function MainPage() {
               </Row>
             </div>
           </Col>
-          <Col className="overall-view">
+          <Col xs={12} sm={12} md={12} lg={12} className="overall-view">
             <Row>
               <Col className="gradient-pattern">
-                <div className="pannel-wrapper">
-                  <Col></Col>
-                  <Col></Col>
-                  <Col></Col>
-                  <Col></Col>
-                </div>
+                <Row className="pannel-wrapper">
+                  <Col xs={12} sm={12} md={3} lg={3}>
+                    <h3>Notre école</h3>
+                    <div className="panel1">
+                      <ul>
+                        <li>Présentation et histoire</li>
+                        <li>Projet éducatif et installations</li>
+                        <li>Calendrier scolaire</li>
+                        <li>Horaires</li>
+                        <li>Règlements Intérieurs</li>
+                        <li>Administration</li>
+                        <li>Gouvernance</li>
+                        <li>Partenaires Institutionnels</li>
+                        <li>Autres Partenaires</li>
+                      </ul>
+                    </div>
+                  </Col>
+                  <Col xs={12} sm={12} md={3} lg={3}>
+                    <h3>Enseignement</h3>
+                    <div className="panel2">
+                      <ul>
+                        <li>Crèche</li>
+                        <li>Maternelle</li>
+                        <li>Primaire</li>
+                      </ul>
+                    </div>
+                  </Col>
+                  <Col xs={12} sm={12} md={3} lg={3}>
+                    <h3>Vie Scolaire</h3>
+                    <div className="panel3">
+                      <ul>
+                        <li>Périscolaire</li>
+                        <li>Centre de Loisirs</li>
+                        <li>Restauration</li>
+                      </ul>
+                    </div>
+                  </Col>
+                  <Col xs={12} sm={12} md={3} lg={3}>
+                    <h3>Inscription</h3>
+                    <div className="panel3">
+                      <ul>
+                        <li>Règles Générales</li>
+                        <li>Frais de scolarité</li>
+                        <li>Règlement Financier</li>
+                        <li>Fiches d'Inscription</li>
+                      </ul>
+                    </div>
+                  </Col>
+                </Row>
               </Col>
             </Row>
           </Col>
         </Row>
-      </Container>
     </motion.div>
   )
 }

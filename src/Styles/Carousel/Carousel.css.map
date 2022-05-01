@@ -1,6 +1,6 @@
 {
     "version": 3,
-    "mappings": "AAEA,AACI,QADI,CACJ,GAAG,CAAA;EACC,aAAa,EAAE,IAAI;CACtB",
+    "mappings": "ACCA,OAAO,CAAC,qEAAI;AACZ,OAAO,CAAC,oEAAI;ADAZ,AACI,QADI,CACJ,GAAG,CAAA;EACC,aAAa,EAAE,IAAI;CACtB",
     "sources": [
         "Carousel.scss",
         "../Variables/Variables.scss"

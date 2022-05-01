@@ -1,20 +1,17 @@
 @import url("https://fonts.googleapis.com/css2?family=Pacifico&display=swap");
 @import url("https://fonts.googleapis.com/css2?family=Satisfy&display=swap");
 @import url("https://fonts.googleapis.com/css2?family=Catamaran:wght@900&display=swap");
-.topNavbar {
-  height: 30px;
+.footer {
+  height: 40px;
   background-color: #1A7341;
+  font-size: 16px;
+  font-family: "Satisfy", cursive;
+  line-height: 30px;
+  vertical-align: middle;
 }
 
-.topNavbar .links a {
-  color: #f6efe7;
-  margin: 5px;
+.footer a {
   text-decoration: none;
-  font-size: 14px;
-  font-weight: bold;
+  color: #f6efe7;
 }
-
-.topNavbar .sociallinks .iconColor {
-  color: #f6efe7 !important;
-}
-/*# sourceMappingURL=TopNavbar.css.map */
+/*# sourceMappingURL=Footer.css.map */

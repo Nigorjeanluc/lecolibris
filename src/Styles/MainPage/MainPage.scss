@@ -29,6 +29,7 @@
         a.active {
             background-color: $darkColor;
             border-radius: 20px;
+            color: $card2Color;
         }
     }
     .sliderSection {
@@ -37,17 +38,20 @@
 
     .banner{
         margin: 20px 0 20px 0;
-        border: 2px solid $blackColor;
+        border: 5px solid $blackColor;
         border-radius: 20px;
         padding: 20px 10px 20px 10px;
         h2 {
-            font-family: $bannerFont2;
+            font-family: $bannerFont3;
             text-align: center;
+            text-transform: uppercase;
+            text-shadow: 1px 2px 0.1em #040f3d93;
         }
         h1 {
             font-family: $bannerFont;
             text-align: center;
-            font-size: medium;
+            font-size: x-large;
+            text-shadow: 1px 2px 0.3em #040f3d97;
         }
     }
 
@@ -110,10 +114,40 @@
             linear-gradient(45deg, #333 25%, transparent 25%);
             background-size: 100px 100px;
             background-color: $whiteColor;
-            padding: 22px;
+            padding: 22px 32px 22px 32px;
+            margin-bottom: 30px;
             .pannel-wrapper {
-                height: 300px;
                 background-color: #fff;
+                padding-bottom: 10px;
+                h3 {
+                    font-size: 1.2rem;
+                    font-family: $bannerFont;
+                    line-height: 40px;
+                }
+                .panel1 {
+                    @include panel($card1Color);
+                    li {
+                        font-size: 13px;
+                    }
+                }
+                .panel2 {
+                    @include panel($card2Color);
+                    li {
+                        font-size: 13px;
+                    }
+                }
+                .panel3 {
+                    @include panel($card5Color);
+                    li {
+                        font-size: 13px;
+                    }
+                }
+                .panel4 {
+                    @include panel($card4Color);
+                    li {
+                        font-size: 13px;
+                    }
+                }
             }
         }
     }
