@@ -2,10 +2,9 @@
 @import url("https://fonts.googleapis.com/css2?family=Satisfy&display=swap");
 @import url("https://fonts.googleapis.com/css2?family=Catamaran:wght@900&display=swap");
 .footer {
-  height: 40px;
   background-color: #1A7341;
   font-size: 16px;
-  font-family: "Satisfy", cursive;
+  font-family: cursive;
   line-height: 30px;
   vertical-align: middle;
 }

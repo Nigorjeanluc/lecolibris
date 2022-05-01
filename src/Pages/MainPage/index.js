@@ -29,7 +29,7 @@ function MainPage() {
             <div className="navSection">
               <Nav defaultActiveKey="/" className="flex-column">
                 <Nav.Link href="/">Acceuil</Nav.Link>
-                <Nav.Link eventKey="link-1">Notre Ecole</Nav.Link>
+                <Nav.Link href="/notre-ecole" eventKey="link-1">Notre école</Nav.Link>
                 <Nav.Link eventKey="link-2">Enseignement</Nav.Link>
                 <Nav.Link eventKey="link-3">Vie Scolaire</Nav.Link>
                 <Nav.Link eventKey="link-4">Inscription</Nav.Link>

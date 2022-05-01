@@ -5,6 +5,7 @@ import {
     useLocation,
 } from "react-router-dom";
 import MainPage from '../../Pages/MainPage';
+import NotreEcole from '../../Pages/NotreEcole';
 
 import {AnimatePresence} from "framer-motion";
 
@@ -14,7 +15,7 @@ function AnimatedRoutes() {
     <AnimatePresence>
       <Routes location={location} key={location.pathname}>
         <Route path="/" element={<MainPage />} />
-        <Route path="/menu" element={<MainPage />} />
+        <Route path="/notre-ecole" element={<NotreEcole />} />
         <Route path="/about" element={<MainPage />} />
         <Route path="/contact" element={<MainPage />} />
       </Routes>

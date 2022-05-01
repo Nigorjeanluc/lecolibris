@@ -1,0 +1,95 @@
+@import "../Variables/Variables.scss";
+
+.main {
+    background-color: $backGroundWhiteColor;
+    .logoSection {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+
+        img {
+            width: 320px;
+            padding: 30px;
+            height: 280px;
+        }
+    }
+    .navSection {
+        margin-top: 20px;
+        display:flex;
+        align-items:center;
+        justify-content: center;
+        a {
+            text-align: center;
+            background-color: none;
+            font-size: 11px;
+            color: $darkColor;
+            font-weight: 800;
+        }
+        a:hover {
+            background-color: $darkBlueColor;
+            border-radius: 20px;
+            color: $whiteColor !important;
+        }
+        a.active {
+            background-color: $darkColor;
+            border-radius: 20px;
+            color: $card2Color;
+        }
+    }
+
+    .content-wrapper {
+        max-width: 900px;
+        margin: auto;
+        border: none;
+    }
+
+    .overall-view{
+        max-width: 900px;
+        margin: auto;
+        border: none;
+        .gradient-pattern {
+            background: linear-gradient(135deg, #333 25%, transparent 25%) -50px 0,
+            linear-gradient(225deg, #333 25%, transparent 25%) -50px 0,
+            linear-gradient(315deg, #333 25%, transparent 25%),
+            linear-gradient(45deg, #333 25%, transparent 25%);
+            background-size: 100px 100px;
+            background-color: $whiteColor;
+            padding: 22px 32px 22px 32px;
+            margin-top: 30px;
+            margin-bottom: 30px;
+            .pannel-wrapper {
+                background-color: #fff;
+                padding-bottom: 10px;
+                h3 {
+                    font-size: 1.2rem;
+                    font-family: $bannerFont;
+                    line-height: 40px;
+                }
+                .panel1 {
+                    @include panel($card1Color);
+                    li {
+                        font-size: 13px;
+                    }
+                }
+                .panel2 {
+                    @include panel($card2Color);
+                    li {
+                        font-size: 13px;
+                    }
+                }
+                .panel3 {
+                    @include panel($card5Color);
+                    li {
+                        font-size: 13px;
+                    }
+                }
+                .panel4 {
+                    @include panel($card4Color);
+                    li {
+                        font-size: 13px;
+                    }
+                }
+            }
+        }
+    }
+}
