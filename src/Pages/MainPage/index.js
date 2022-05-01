@@ -52,13 +52,13 @@ function MainPage() {
           <Col className="cards" md={12} lg={12}>
             <div className="padCards">
               <Row>
-                <Col xs={12} sm={12}>
+                <Col xs={12} sm={12} md={6} lg={6}>
                   <div className="card1">
                     <img alt="creche" src={image1} />
                     <h2>La Crèche</h2>
                   </div>
                 </Col>
-                <Col xs={12} sm={12}>
+                <Col xs={12} sm={12} md={6} lg={6}>
                   <div className="card2">
                     <img alt="maternelle" src={image2} />
                     <h2>L' école maternelle</h2>
