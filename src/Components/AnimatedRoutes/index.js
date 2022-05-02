@@ -6,6 +6,7 @@ import {
 } from "react-router-dom";
 import MainPage from '../../Pages/MainPage';
 import NotreEcole from '../../Pages/NotreEcole';
+import Enseignement from '../../Pages/Enseignement';
 
 import {AnimatePresence} from "framer-motion";
 
@@ -16,8 +17,10 @@ function AnimatedRoutes() {
       <Routes location={location} key={location.pathname}>
         <Route path="/" element={<MainPage />} />
         <Route path="/notre-ecole" element={<NotreEcole />} />
-        <Route path="/about" element={<MainPage />} />
-        <Route path="/contact" element={<MainPage />} />
+        <Route path="/enseignement" element={<Enseignement />} />
+        <Route path="/vie-scolaire" element={<Enseignement />} />
+        <Route path="/inscription" element={<Enseignement />} />
+        <Route path="/contact" element={<Enseignement />} />
       </Routes>
     </AnimatePresence>
   )

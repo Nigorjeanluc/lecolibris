@@ -33,10 +33,10 @@ const NotreEcole = () => {
               <Nav defaultActiveKey="/notre-ecole" className="flex-row">
                 <Nav.Link href="/" eventKey="link-1">Acceuil</Nav.Link>
                 <Nav.Link href="/notre-ecole">Notre école</Nav.Link>
-                <Nav.Link eventKey="link-2">Enseignement</Nav.Link>
-                <Nav.Link eventKey="link-3">Vie Scolaire</Nav.Link>
-                <Nav.Link eventKey="link-4">Inscription</Nav.Link>
-                <Nav.Link eventKey="link-5">Contact</Nav.Link>
+                <Nav.Link href="/enseignement" eventKey="link-2">Enseignement</Nav.Link>
+                <Nav.Link href="/vie-scolaire" eventKey="link-3">Vie Scolaire</Nav.Link>
+                <Nav.Link href="/inscription" eventKey="link-4">Inscription</Nav.Link>
+                <Nav.Link href="/contact" eventKey="link-5">Contact</Nav.Link>
               </Nav>
             </div>
         </Col>
@@ -52,7 +52,7 @@ const NotreEcole = () => {
                         <span>Présentation et histoire</span>
                     </ListGroup.Item>
                     <ListGroup.Item action href="#link2">
-                        <span>Projet éducatif et installations</span>
+                        <span>Objectifs et des domaines</span>
                     </ListGroup.Item>
                     <ListGroup.Item action href="#link3">
                         <span>Calendrier scolaire</span>
@@ -83,6 +83,9 @@ const NotreEcole = () => {
                         <div>
                             <h2>Présentation de l’EIC</h2>
                             <Ratio aspectRatio="4x3"><img alt="image9" src={require('../../assets/image9.jpg')} /></Ratio>
+                            <p>
+                              Ecole internationale le colibri est une association sans but lucratif, multisectorielle, apolitique, non confessionnelle (laïc)  et sans appartenance tribale ou raciale.
+                            </p>
                             <p>
                                 L’école constitue une communauté de travail dans laquelle chacun participe à une œuvre collective 
                                 d’éducation au sens le plus large du terme: les relations entre les membres qui la composent 
@@ -137,22 +140,177 @@ const NotreEcole = () => {
                         </div>
                     </Tab.Pane>
                     <Tab.Pane eventKey="#link2">
-                        <h2>Projet éducatif de l’EIC</h2>
+                        <div>
+                          <h2>L’objectif global</h2>
+                          <p>
+                            Notre objectif est de favoriser le bien-être et l’efficacité de notre communauté scolaire  d’améliorer et 
+                            de promouvoir véritablement l’apprentissage de base, tout en organisant, à la fin de cycle, 
+                            une admission sélective vers le secondaire qui dissociée de l’examen de fin d’étude primaires.
+                          </p>
+                          <h2>Les objectifs specifiques</h2>
+                          <Ratio aspectRatio="4x3"><img alt="image10" src={require('../../assets/image10.jpg')} /></Ratio>
+                          <ul>
+                            <li>
+                              Renforcer les capacités des élèves du fondamental en lecture-écriture et en  mathématiques et en sciences d’observation;
+                            </li>
+                            <li>
+                              Renforcer la capacité des élèves du fondamental à  résoudre des problèmes de la vie courante.
+                            </li>
+                            <li>
+                              Établir des méthodes de communication pour informer les parents et le public du rendement des élèves et faire connaître l’école au public.
+                            </li>
+                            <li>
+                              Renforcer les capacités pédagogiques et techniques des formateurs à tous les niveaux.
+                            </li>
+                            <li>
+                              Identifier les besoins de formation en rapport avec le marché du travail.
+                            </li>
+                            <li>
+                              Stimuler la participation active et la collaboration de tous les membres de la communauté scolaire.
+                            </li>
+                            <li>
+                              Renforcer le programme de formation des formateurs.
+                            </li>
+                            <li>
+                              Renforcer le fonds compétitif pour la recherche et l’innovation.
+                            </li>
+                            <li>
+                              Renforcer les capacités techniques des personnels d’encadrement des structures  et de la formation professionnelle (SERNAFOR)
+                            </li>
+                            <li>
+                              Améliorer le pilotage, la coordination, la gestion des ressources financières et le suivi–évaluation du programme.
+                            </li>
+                            <li>
+                              Accroître les capacités d’accueil des structures de l’éducation préscolaire, de l’enseignement Fondamental.
+                            </li>
+                            <li>
+                              Accroître les capacités d’accueil des structures de formation initiale des enseignants.
+                              Développer les structures de l’administration scolaire;
+                            </li>
+                          </ul>
+                        </div>
                     </Tab.Pane>
                     <Tab.Pane eventKey="#link3">
+                      <div>
                         <h2>Calendrier scolaire</h2>
+                      </div>
                     </Tab.Pane>
                     <Tab.Pane eventKey="#link4">
+                      <div>
                         <h2>Jours de classe et heures d’ouverture de l’école</h2>
+                      </div>
                     </Tab.Pane>
                     <Tab.Pane eventKey="#link5">
-                        <h2>Projet éducatif de l’EIC</h2>
+                      <div>
+                        <h2>Règlements Intérieurs</h2>
+                        <Ratio aspectRatio="4x3"><img alt="image11" src={require('../../assets/image11.jpg')} /></Ratio>
+                        <p>Tous les membres doivent:</p>
+                        <ul>
+                          <li>respecter les lois qui les régissent,</li>
+                          <li>être guidés par l’énoncé de mission de l’école et du Conseil d’école,</li>
+                          <li>se familiariser avec les politiques et les pratiques de l’école et les respecter,</li>
+                          <li>faire preuve de la plus grande honnêteté, précision, intégrité et vérité,</li>
+                          <li>reconnaître et respecter l’intégrité personnelle de chaque membre de la communauté scolaire,</li>
+                          <li>déclarer tout conflit d’intérêt,</li>
+                          <li>favoriser une atmosphère positive où l’on encourage chacun à contribuer et où l’on apprécie la contribution de tous,</li>
+                          <li>appliquer les principes de la démocratie,</li>
+                          <li>avoir comme priorité l’intérêt de l’ensemble des élèves,</li>
+                          <li>
+                            respecter la nature confidentielle de certaines affaires de l’école 
+                            et respecter les limites que cela peut imposer au Conseil d’école, 
+                            ne jamais divulguer de renseignements confidentiels, pendant les réunions du conseil d’école, 
+                            limiter les discussions aux questions relatives à la communauté scolaire,
+                          </li>
+                          <li>utiliser les voies de communication appropriées lorsque des problèmes ou des difficultés surviennent,</li>
+                          <li>promouvoir des normes élevées de pratique éthique au sein de la communauté scolaire;</li>
+                          <li>accepter la responsabilité des décisions qui ont été prises,</li>
+                          <li>refuser tout paiement pour les activités liées au Conseil d’école.</li>
+                        </ul>
+                        <p>
+                          Tout membre du Conseil d’école qui a connaissance d’un manquement au code de déontologie, 
+                          de la part d’un membre du conseil, est tenu d’en faire part à un membre de l’exécutif.
+                        </p>
+                      </div>
                     </Tab.Pane>
                     <Tab.Pane eventKey="#link6">
+                      <div>
                         <h2>Administration</h2>
+                      </div>
                     </Tab.Pane>
                     <Tab.Pane eventKey="#link7">
-                        <h2>Gouvernance</h2>
+                      <div>
+                        <h2>Gouvernance et composition du conseil d'école</h2>
+                        <p>
+                          Toute personne qui adhère au projet éducatif de l’École Internationale le colibri peut siéger au 
+                          Conseil d’école et ces personnes doivent accepter les Statuts et Règlements du Conseil d’école
+                        </p>
+                        <p>
+                          La loi scolaire n’oblige que le conseil d’école soit composé d’une majorité de parent. 
+                          Alors le  Conseil d’école devrait être composé des personnes suivantes:
+                        </p>
+                        <ul>
+                          <li>
+                            <strong>D’un minimum de 3 parents d’élèves inscrits à l’école Internationale les colibris</strong> 
+                            élus par les parents (président des parents, vice-président et secrétaire).
+                          </li>
+                          <li>
+                            Préfet des études et représentant des enseignants.
+                          </li>
+                          <li>
+                            La directrice de l’école
+                          </li>
+                          <li>
+                            Secrétaire  de l’Ecole.
+                          </li>
+                          <li>
+                            Un représentant des élèves choisit par la directrice,
+                          </li>
+                        </ul>
+                        <h3>Les postes du comité exécutif du Conseil d’école sont:</h3>
+                        <ul>
+                          <li>un président, un vice-président, et un secrétaire,</li>
+                          <li>
+                            les postes de l’exécutif devraient être occupés en priorité par 
+                            les parents d’élèves inscrits à l’école Internationale le colibri,
+                          </li>
+                          <li>
+                            la durée des fonctions s’échelonne d’une 
+                            Assemblée Générale Annuelle à la prochaine Assemblée Générale Annuelle.
+                          </li>
+                        </ul>
+                        <h2>Fonctions du comité exécutif:</h2>
+                        <h3>Le Président</h3>
+                          <p>
+                            Le président est responsable de préparer l’ordre du jour des réunions, 
+                            de gérer les réunions, d’agir comme porte-parole du Conseil d’école et 
+                            de superviser, dans  son ensemble le Conseil d’école.
+                          </p>
+                          <p>
+                            Le président est le représentant du comité des parents 
+                            francophones de et assister aux réunions ou aux activités pertinentes à son poste.
+                          </p>
+                          <p>
+                            En son absence ou celui du vice-président, 
+                            le comité exécutif peut nommer un autre membre du conseil d’école pour 
+                            représenter le Conseil d’école à une réunion ou activité de l’Assemblée Anuelle. 
+                            Le président présente le rapport annuel au conseil scolaire.
+                          </p>
+                        <h3>Vice-président</h3>
+                          <p>
+                            Le vice-président aide le président à accomplir ses fonctions et en l’absence du  président, 
+                            assume les fonctions de ce dernier. Le vice-président est la personne responsable du respect de 
+                            la Personal Information Protectio et de gérer les renseignements personnels des membres du 
+                            Conseil d’école conformément à la PIPA. En consultation avec le Conseil d’école, il a la 
+                            responsabilité de communiquer avec la Société des parents de l’école Internationale le colibris.
+                          </p>
+                        <h3>Le secrétaire</h3>
+                          <p>
+                            Le secrétaire est responsable de la rédaction d’un procès-verbal précis et de la tenue d’un registre 
+                            des réunions, de toute la correspondance et de toutes les communications, de présider le comité des 
+                            communications et de maintenir une liste exacte des noms et des adresses des membres du Conseil d’école 
+                            conformément à la Personal Information Protection Act (PIPA).
+                          </p>
+                      </div>
                     </Tab.Pane>
                     <Tab.Pane eventKey="#link8">
                         <h2>Partenaires institutionnels</h2>

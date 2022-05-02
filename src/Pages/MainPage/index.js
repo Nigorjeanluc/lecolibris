@@ -30,10 +30,10 @@ function MainPage() {
               <Nav defaultActiveKey="/" className="flex-column">
                 <Nav.Link href="/">Acceuil</Nav.Link>
                 <Nav.Link href="/notre-ecole" eventKey="link-1">Notre école</Nav.Link>
-                <Nav.Link eventKey="link-2">Enseignement</Nav.Link>
-                <Nav.Link eventKey="link-3">Vie Scolaire</Nav.Link>
-                <Nav.Link eventKey="link-4">Inscription</Nav.Link>
-                <Nav.Link eventKey="link-5">Contact</Nav.Link>
+                <Nav.Link href="/enseignement" eventKey="link-2">Enseignement</Nav.Link>
+                <Nav.Link href="/vie-scolaire" eventKey="link-3">Vie Scolaire</Nav.Link>
+                <Nav.Link href="/inscription" eventKey="link-4">Inscription</Nav.Link>
+                <Nav.Link href="/contact" eventKey="link-5">Contact</Nav.Link>
               </Nav>
             </div>
           </Col>
