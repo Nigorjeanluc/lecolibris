@@ -63,6 +63,74 @@
   border: none;
 }
 
+.main .content-wrapper .row .aside {
+  margin-top: 40px;
+  border-right: 1px solid rgba(51, 51, 51, 0.311);
+  padding-left: 0px;
+  padding-right: 0px;
+}
+
+.main .content-wrapper .row .aside h3 {
+  font-family: "Raleway", sans-serif;
+  font-size: larger;
+  text-align: center;
+  font-weight: 800;
+}
+
+.main .content-wrapper .row .aside .list-group {
+  border-radius: 0px !important;
+}
+
+.main .content-wrapper .row .aside .list-group .list-group-item.active {
+  background-color: #0118265e !important;
+  color: #fff;
+  border-right: 4px solid #011826;
+  border-color: #011826;
+}
+
+.main .content-wrapper .row .aside .list-group .list-group-item:focus {
+  text-decoration: none;
+  background-color: #011826;
+  color: #fff;
+}
+
+.main .content-wrapper .row .aside .list-group .list-group-item:hover {
+  text-decoration: none;
+  background-color: #011826;
+  color: #fff;
+}
+
+.main .content-wrapper .row .aside .list-group span {
+  font-size: 14px;
+}
+
+.main .content-wrapper .row .content {
+  margin-top: 40px;
+  font-family: "Raleway", sans-serif;
+}
+
+.main .content-wrapper .row .content h2 {
+  font-weight: 800;
+}
+
+.main .content-wrapper .row .content .ratio {
+  margin-bottom: 20px;
+}
+
+.main .content-wrapper .row .content p {
+  font-size: 14px;
+  text-align: justify;
+}
+
+.main .content-wrapper .row .content p b {
+  font-weight: bolder;
+}
+
+.main .content-wrapper .row .content ul li {
+  font-family: "Raleway", sans-serif;
+  font-size: 14px;
+}
+
 .main .overall-view {
   max-width: 900px;
   margin: auto;

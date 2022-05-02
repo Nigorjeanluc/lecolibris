@@ -1,6 +1,6 @@
 import { useEffect, useState } from "react";
 import {motion} from "framer-motion";
-import { Row, Col, Nav, Tab, ListGroup } from 'react-bootstrap';
+import { Row, Col, Nav, Tab, ListGroup, Ratio } from 'react-bootstrap';
 
 import logo from '../../assets/logo.png';
 import '../../Styles/NotreEcole/NotreEcole.css';
@@ -44,8 +44,9 @@ const NotreEcole = () => {
           <div className="content-wrapper">
             <Tab.Container id="list-group-tabs-example" defaultActiveKey="#link1">
               <Row>
-                <Col sm={4}>
+                <Col className="aside" sm={4}>
                   <h3>Notre école</h3>
+
                   <ListGroup>
                     <ListGroup.Item action href="#link1">
                         <span>Présentation et histoire</span>
@@ -76,11 +77,12 @@ const NotreEcole = () => {
                     </ListGroup.Item>
                   </ListGroup>
                 </Col>
-                <Col sm={8}>
+                <Col className="content" sm={8}>
                   <Tab.Content>
                     <Tab.Pane eventKey="#link1">
                         <div>
                             <h2>Présentation de l’EIC</h2>
+                            <Ratio aspectRatio="4x3"><img alt="image9" src={require('../../assets/image9.jpg')} /></Ratio>
                             <p>
                                 L’école constitue une communauté de travail dans laquelle chacun participe à une œuvre collective 
                                 d’éducation au sens le plus large du terme: les relations entre les membres qui la composent 
@@ -112,6 +114,7 @@ const NotreEcole = () => {
                                 de l’organisation  de la vie scolaire et de la discipline.
                             </p>
                             <h2>Histoire de l’EIC</h2>
+                            <Ratio aspectRatio="4x3"><img alt="image6" src={require('../../assets/image6.jpg')} /></Ratio>
                             <p>
                                 Ecole internationale le colibri créé le 20 juin 2017, à Cyeru, Kanzenze, Ntarama Bugesera, province de l’est en République du Rwanda, entre les soussignés.
                             </p>
