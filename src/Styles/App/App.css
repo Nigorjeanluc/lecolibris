@@ -9,5 +9,11 @@
 body {
   margin: 0;
   padding: 0;
+  background-image: url(../../assets/pattern2.jpg);
+  height: 100%;
+  background-size: cover;
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
 }
 /*# sourceMappingURL=App.css.map */
