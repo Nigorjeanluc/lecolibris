@@ -108,7 +108,7 @@ function MainPage() {
                     <h3>Vie Scolaire</h3>
                     <div className="panel3">
                       <ul>
-                        <li>Périscolaire</li>
+                        <li>Colonies de vacances</li>
                         <li>Centre de Loisirs</li>
                         <li>Restauration</li>
                       </ul>

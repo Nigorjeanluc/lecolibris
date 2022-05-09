@@ -89,7 +89,7 @@ const NotreEcole = () => {
                         <h2>L’école primaire</h2>
                         <Ratio aspectRatio="4x3"><img alt="image6" src={require('../../assets/image6.jpg')} /></Ratio>
                         <p>
-                            Ecole primaire : L'école primaire est obligatoire et accueille les enfants âgés de 6 à 11 ans ; il est organisé en cycle d’éveil (CP1, CP2 et CE1) et un cycle de fixation (CE2, CM1 et CM2). La fin de formation est sanctionnée par le certificat d’études primaires élémentaires (CEPE).
+                            Ecole primaire : L'école primaire est obligatoire et accueille les enfants âgés de 6 à 11 ans ; il est organisé en cycle d’éveil (CP1, CP2 et CE1). La fin de formation est sanctionnée par le certificat d’études primaires élémentaires (CEPE).
                         </p>
                       </div>
                     </Tab.Pane>
@@ -133,7 +133,7 @@ const NotreEcole = () => {
                     <h3>Vie Scolaire</h3>
                     <div className="panel3">
                       <ul>
-                        <li>Périscolaire</li>
+                        <li>Colonies de vacances</li>
                         <li>Centre de Loisirs</li>
                         <li>Restauration</li>
                       </ul>
