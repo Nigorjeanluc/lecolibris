@@ -2,6 +2,7 @@ import React from 'react';
 import {motion} from "framer-motion";
 import { Row, Col, Nav } from 'react-bootstrap';
 
+import BottomBanner from '../../Components/BottomBanner';
 import logo from '../../assets/logo.png';
 import image1 from '../../assets/image2.jpg';
 import image2 from '../../assets/image3.jpg';
@@ -52,83 +53,35 @@ function MainPage() {
             <div className="padCards">
               <Row>
                 <Col xs={12} sm={12} md={6} lg={6}>
-                  <div className="card1">
-                    <img alt="creche" src={image1} />
-                    <h2>La Crèche</h2>
-                  </div>
+                  <a href='/enseignement'>
+                    <div className="card1">
+                      <img alt="creche" src={image1} />
+                      <h2>La Crèche</h2>
+                    </div>
+                  </a>
                 </Col>
                 <Col xs={12} sm={12} md={6} lg={6}>
-                  <div className="card2">
-                    <img alt="maternelle" src={image2} />
-                    <h2>L' école maternelle</h2>
-                  </div>
+                  <a href='/enseignement'>
+                    <div className="card2">
+                      <img alt="maternelle" src={image2} />
+                      <h2>L' école maternelle</h2>
+                    </div>
+                  </a>
                 </Col>
               </Row>
               <Row>
                 <Col xs={12} sm={12} md={6} lg={6}>
-                  <div className="card3">
-                    <img alt="primaire" src={image3} />
-                    <h2>L' école primaire</h2>
-                  </div>
+                  <a href='/enseignement'>
+                    <div className="card3">
+                      <img alt="primaire" src={image3} />
+                      <h2>L' école primaire</h2>
+                    </div>
+                  </a>
                 </Col>
               </Row>
             </div>
           </Col>
-          <Col xs={12} sm={12} md={12} lg={12} className="overall-view">
-            <Row>
-              <Col className="gradient-pattern">
-                <Row className="pannel-wrapper">
-                  <Col xs={12} sm={12} md={3} lg={3}>
-                    <h3>Notre école</h3>
-                    <div className="panel1">
-                      <ul>
-                        <li>Présentation et histoire</li>
-                        <li>Projet éducatif et installations</li>
-                        <li>Calendrier scolaire</li>
-                        <li>Horaires</li>
-                        <li>Règlements Intérieurs</li>
-                        <li>Administration</li>
-                        <li>Gouvernance</li>
-                        <li>Partenaires Institutionnels</li>
-                        <li>Autres Partenaires</li>
-                      </ul>
-                    </div>
-                  </Col>
-                  <Col xs={12} sm={12} md={3} lg={3}>
-                    <h3>Enseignement</h3>
-                    <div className="panel2">
-                      <ul>
-                        <li>Crèche</li>
-                        <li>Maternelle</li>
-                        <li>Primaire</li>
-                      </ul>
-                    </div>
-                  </Col>
-                  <Col xs={12} sm={12} md={3} lg={3}>
-                    <h3>Vie Scolaire</h3>
-                    <div className="panel3">
-                      <ul>
-                        <li>Colonies de vacances</li>
-                        <li>Centre de Loisirs</li>
-                        <li>Restauration</li>
-                      </ul>
-                    </div>
-                  </Col>
-                  <Col xs={12} sm={12} md={3} lg={3}>
-                    <h3>Inscription</h3>
-                    <div className="panel3">
-                      <ul>
-                        <li>Règles Générales</li>
-                        <li>Frais de scolarité</li>
-                        <li>Règlement Financier</li>
-                        <li>Fiches d'Inscription</li>
-                      </ul>
-                    </div>
-                  </Col>
-                </Row>
-              </Col>
-            </Row>
-          </Col>
+          <BottomBanner />
         </Row>
     </motion.div>
   )

@@ -2,8 +2,7 @@
   max-width: 1000px;
   margin: auto;
   border: none;
-  -webkit-box-shadow: 0px 0px 12px 15px rgba(0, 0, 0, 0.655);
-          box-shadow: 0px 0px 12px 15px rgba(0, 0, 0, 0.655);
+  box-shadow: 0px 0px 12px 15px rgba(0, 0, 0, 0.655);
 }
 
 body {
@@ -15,5 +14,4 @@ body {
   background-attachment: fixed;
   background-position: center;
   background-repeat: no-repeat;
-}
-/*# sourceMappingURL=App.css.map */
+}/*# sourceMappingURL=App.css.map */

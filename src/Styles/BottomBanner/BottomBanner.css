@@ -1,0 +1,90 @@
+@import url("https://fonts.googleapis.com/css2?family=Pacifico&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Satisfy&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Catamaran:wght@900&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Raleway:wght@500&display=swap");
+.overall-view {
+  max-width: 900px !important;
+  margin: auto;
+  border: none;
+}
+.overall-view .gradient-pattern {
+  background: linear-gradient(135deg, #333 25%, transparent 25%) -50px 0, linear-gradient(225deg, #333 25%, transparent 25%) -50px 0, linear-gradient(315deg, #333 25%, transparent 25%), linear-gradient(45deg, #333 25%, transparent 25%);
+  background-size: 100px 100px;
+  background-color: rgb(246, 239, 231);
+  padding: 22px 32px 22px 32px;
+  margin-top: 30px;
+  margin-bottom: 30px;
+}
+.overall-view .gradient-pattern .pannel-wrapper {
+  background-color: #fff;
+  padding-bottom: 10px;
+}
+.overall-view .gradient-pattern .pannel-wrapper h3 {
+  font-size: 1.2rem;
+  font-family: "Pacifico", cursive;
+  line-height: 40px;
+}
+.overall-view .gradient-pattern .pannel-wrapper .panel1 {
+  background-color: #0367A6;
+  border-radius: 15px;
+  padding: 10px;
+  height: 250px;
+}
+.overall-view .gradient-pattern .pannel-wrapper .panel1 ul {
+  list-style-type: square;
+}
+.overall-view .gradient-pattern .pannel-wrapper .panel1 li {
+  font-size: 13px;
+}
+.overall-view .gradient-pattern .pannel-wrapper .panel1 li a {
+  text-decoration: none;
+  color: black;
+}
+.overall-view .gradient-pattern .pannel-wrapper .panel2 {
+  background-color: #F2B705;
+  border-radius: 15px;
+  padding: 10px;
+  height: 250px;
+}
+.overall-view .gradient-pattern .pannel-wrapper .panel2 ul {
+  list-style-type: square;
+}
+.overall-view .gradient-pattern .pannel-wrapper .panel2 li {
+  font-size: 13px;
+}
+.overall-view .gradient-pattern .pannel-wrapper .panel2 li a {
+  text-decoration: none;
+  color: black;
+}
+.overall-view .gradient-pattern .pannel-wrapper .panel3 {
+  background-color: #F27405;
+  border-radius: 15px;
+  padding: 10px;
+  height: 250px;
+}
+.overall-view .gradient-pattern .pannel-wrapper .panel3 ul {
+  list-style-type: square;
+}
+.overall-view .gradient-pattern .pannel-wrapper .panel3 li {
+  font-size: 13px;
+}
+.overall-view .gradient-pattern .pannel-wrapper .panel3 li a {
+  text-decoration: none;
+  color: black;
+}
+.overall-view .gradient-pattern .pannel-wrapper .panel4 {
+  background-color: #4F7302;
+  border-radius: 15px;
+  padding: 10px;
+  height: 250px;
+}
+.overall-view .gradient-pattern .pannel-wrapper .panel4 ul {
+  list-style-type: square;
+}
+.overall-view .gradient-pattern .pannel-wrapper .panel4 li {
+  font-size: 13px;
+}
+.overall-view .gradient-pattern .pannel-wrapper .panel4 li a {
+  text-decoration: none;
+  color: black;
+}/*# sourceMappingURL=BottomBanner.css.map */

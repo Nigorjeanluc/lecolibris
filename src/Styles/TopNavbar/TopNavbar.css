@@ -6,16 +6,13 @@
   height: 30px;
   background-color: #1A7341;
 }
-
 .topNavbar .links a {
-  color: #f6efe7;
+  color: rgb(246, 239, 231);
   margin: 5px;
   text-decoration: none;
   font-size: 14px;
   font-weight: bold;
 }
-
 .topNavbar .sociallinks .iconColor {
-  color: #f6efe7 !important;
-}
-/*# sourceMappingURL=TopNavbar.css.map */
+  color: rgb(246, 239, 231) !important;
+}/*# sourceMappingURL=TopNavbar.css.map */

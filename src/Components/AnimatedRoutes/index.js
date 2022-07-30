@@ -7,6 +7,7 @@ import {
 import MainPage from '../../Pages/MainPage';
 import NotreEcole from '../../Pages/NotreEcole';
 import Enseignement from '../../Pages/Enseignement';
+import Inscription from '../../Pages/Inscription';
 
 import {AnimatePresence} from "framer-motion";
 
@@ -19,7 +20,7 @@ function AnimatedRoutes() {
         <Route path="/notre-ecole" element={<NotreEcole />} />
         <Route path="/enseignement" element={<Enseignement />} />
         <Route path="/vie-scolaire" element={<Enseignement />} />
-        <Route path="/inscription" element={<Enseignement />} />
+        <Route path="/inscription" element={<Inscription />} />
         <Route path="/contact" element={<Enseignement />} />
       </Routes>
     </AnimatePresence>

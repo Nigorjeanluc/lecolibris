@@ -1,10 +1,1 @@
-{
-    "version": 3,
-    "mappings": "ACCA,OAAO,CAAC,qEAAI;AACZ,OAAO,CAAC,oEAAI;AACZ,OAAO,CAAC,+EAAI;AACZ,OAAO,CAAC,6EAAI;ADFZ,AACI,QADI,CACJ,GAAG,CAAA;EACC,aAAa,EAAE,IAAI;CACtB",
-    "sources": [
-        "Carousel.scss",
-        "../Variables/Variables.scss"
-    ],
-    "names": [],
-    "file": "Carousel.css"
-}
+{"version":3,"sources":["../Variables/Variables.scss","Carousel.scss","Carousel.css"],"names":[],"mappings":"AACQ,6EAAA;AACA,4EAAA;AACA,uFAAA;AACA,qFAAA;ACDJ;EACI,mBAAA;ACER","file":"Carousel.css"}

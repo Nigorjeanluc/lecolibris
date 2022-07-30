@@ -2,6 +2,7 @@ import { useEffect, useState } from "react";
 import {motion} from "framer-motion";
 import { Row, Col, Nav, Tab, ListGroup, Ratio } from 'react-bootstrap';
 
+import BottomBanner from '../../Components/BottomBanner';
 import logo from '../../assets/logo.png';
 import '../../Styles/NotreEcole/NotreEcole.css';
 
@@ -72,9 +73,6 @@ const NotreEcole = () => {
                     <ListGroup.Item action href="#link8">
                         <span>Partenaires Institutionnels</span>
                     </ListGroup.Item>
-                    <ListGroup.Item action href="#link9">
-                        <span>Autres Partenaires</span>
-                    </ListGroup.Item>
                   </ListGroup>
                 </Col>
                 <Col className="content" sm={8}>
@@ -82,7 +80,6 @@ const NotreEcole = () => {
                     <Tab.Pane eventKey="#link1">
                         <div>
                             <h2>Présentation de l’EIC</h2>
-                            <Ratio aspectRatio="4x3"><img alt="image9" src={require('../../assets/image9.jpg')} /></Ratio>
                             <p>
                               Ecole internationale le colibri est une association sans but lucratif, multisectorielle, apolitique, non confessionnelle (laïc)  et sans appartenance tribale ou raciale.
                             </p>
@@ -91,6 +88,7 @@ const NotreEcole = () => {
                                 d’éducation au sens le plus large du terme: les relations entre les membres qui la composent 
                                 (parents, élèves et les différents personnels) sont fondées sur la collaboration et le respect mutuel.
                             </p>
+                            <Ratio aspectRatio="4x3"><img alt="image9" src={require('../../assets/image9.jpg')} /></Ratio>
                             <p>
                                 Le présent règlement intérieur a pour but d’assurer l’organisation de la vie dans 
                                 l’établissement dans le respect des textes officiels. 
@@ -315,70 +313,13 @@ const NotreEcole = () => {
                     <Tab.Pane eventKey="#link8">
                         <h2>Partenaires institutionnels</h2>
                     </Tab.Pane>
-                    <Tab.Pane eventKey="#link9">
-                        <h2>Autres partenaires</h2>
-                    </Tab.Pane>
                   </Tab.Content>
                 </Col>
               </Row>
             </Tab.Container>
           </div>
         </Col>
-        <Col xs={12} sm={12} md={12} lg={12} className="overall-view">
-            <Row>
-              <Col className="gradient-pattern">
-                <Row className="pannel-wrapper">
-                  <Col xs={12} sm={12} md={3} lg={3}>
-                    <h3>Notre école</h3>
-                    <div className="panel1">
-                      <ul>
-                        <li>Présentation et histoire</li>
-                        <li>Projet éducatif et installations</li>
-                        <li>Calendrier scolaire</li>
-                        <li>Horaires</li>
-                        <li>Règlements Intérieurs</li>
-                        <li>Administration</li>
-                        <li>Gouvernance</li>
-                        <li>Partenaires Institutionnels</li>
-                        <li>Autres Partenaires</li>
-                      </ul>
-                    </div>
-                  </Col>
-                  <Col xs={12} sm={12} md={3} lg={3}>
-                    <h3>Enseignement</h3>
-                    <div className="panel2">
-                      <ul>
-                        <li>Crèche</li>
-                        <li>Maternelle</li>
-                        <li>Primaire</li>
-                      </ul>
-                    </div>
-                  </Col>
-                  <Col xs={12} sm={12} md={3} lg={3}>
-                    <h3>Vie Scolaire</h3>
-                    <div className="panel3">
-                      <ul>
-                        <li>Colonies de vacances</li>
-                        <li>Centre de Loisirs</li>
-                        <li>Restauration</li>
-                      </ul>
-                    </div>
-                  </Col>
-                  <Col xs={12} sm={12} md={3} lg={3}>
-                    <h3>Inscription</h3>
-                    <div className="panel3">
-                      <ul>
-                        <li>Règles Générales</li>
-                        <li>Frais de scolarité</li>
-                        <li>Règlement Financier</li>
-                        <li>Fiches d'Inscription</li>
-                      </ul>
-                    </div>
-                  </Col>
-                </Row>
-              </Col>
-            </Row>
-        </Col>
+        <BottomBanner />
       </Row>
     </motion.div>
   )

@@ -5,38 +5,22 @@
 .main {
   background-color: #F2F2F2;
 }
-
 .main .logoSection {
-  display: -webkit-box;
-  display: -ms-flexbox;
   display: flex;
-  -webkit-box-pack: center;
-      -ms-flex-pack: center;
-          justify-content: center;
-  -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
+  justify-content: center;
+  align-items: center;
 }
-
 .main .logoSection img {
   width: 320px;
   padding: 30px;
   height: 280px;
 }
-
 .main .navSection {
   margin-top: 20px;
-  display: -webkit-box;
-  display: -ms-flexbox;
   display: flex;
-  -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
-  -webkit-box-pack: center;
-      -ms-flex-pack: center;
-          justify-content: center;
+  align-items: center;
+  justify-content: center;
 }
-
 .main .navSection a {
   text-align: center;
   background-color: none;
@@ -44,177 +28,74 @@
   color: #011826;
   font-weight: 800;
 }
-
 .main .navSection a:hover {
   background-color: #024873;
   border-radius: 20px;
-  color: #f6efe7 !important;
+  color: rgb(246, 239, 231) !important;
 }
-
 .main .navSection a.active {
   background-color: #011826;
   border-radius: 20px;
   color: #F2B705;
 }
-
 .main .content-wrapper {
   max-width: 900px;
   margin: auto;
   border: none;
 }
-
 .main .content-wrapper .row .aside {
   margin-top: 40px;
   border-right: 1px solid rgba(51, 51, 51, 0.311);
   padding-left: 0px;
   padding-right: 0px;
 }
-
 .main .content-wrapper .row .aside h3 {
   font-family: "Raleway", sans-serif;
   font-size: larger;
   text-align: center;
   font-weight: 800;
 }
-
 .main .content-wrapper .row .aside .list-group {
   border-radius: 0px !important;
 }
-
 .main .content-wrapper .row .aside .list-group .list-group-item.active {
-  background-color: #0118265e !important;
+  background-color: rgba(1, 24, 38, 0.368627451) !important;
   color: #fff;
   border-right: 4px solid #011826;
   border-color: #011826;
 }
-
 .main .content-wrapper .row .aside .list-group .list-group-item:focus {
   text-decoration: none;
   background-color: #011826;
   color: #fff;
 }
-
 .main .content-wrapper .row .aside .list-group .list-group-item:hover {
   text-decoration: none;
   background-color: #011826;
   color: #fff;
 }
-
 .main .content-wrapper .row .aside .list-group span {
   font-size: 14px;
 }
-
 .main .content-wrapper .row .content {
   margin-top: 40px;
   font-family: "Raleway", sans-serif;
 }
-
 .main .content-wrapper .row .content h2 {
   font-weight: 800;
 }
-
 .main .content-wrapper .row .content .ratio {
   padding: 40px;
   margin-bottom: 20px;
 }
-
 .main .content-wrapper .row .content p {
   font-size: 14px;
   text-align: justify;
 }
-
 .main .content-wrapper .row .content p b {
   font-weight: bolder;
 }
-
 .main .content-wrapper .row .content ul li {
   font-family: "Raleway", sans-serif;
   font-size: 14px;
-}
-
-.main .overall-view {
-  max-width: 900px;
-  margin: auto;
-  border: none;
-}
-
-.main .overall-view .gradient-pattern {
-  background: linear-gradient(135deg, #333 25%, transparent 25%) -50px 0, linear-gradient(225deg, #333 25%, transparent 25%) -50px 0, linear-gradient(315deg, #333 25%, transparent 25%), linear-gradient(45deg, #333 25%, transparent 25%);
-  background-size: 100px 100px;
-  background-color: #f6efe7;
-  padding: 22px 32px 22px 32px;
-  margin-top: 30px;
-  margin-bottom: 30px;
-}
-
-.main .overall-view .gradient-pattern .pannel-wrapper {
-  background-color: #fff;
-  padding-bottom: 10px;
-}
-
-.main .overall-view .gradient-pattern .pannel-wrapper h3 {
-  font-size: 1.2rem;
-  font-family: "Pacifico", cursive;
-  line-height: 40px;
-}
-
-.main .overall-view .gradient-pattern .pannel-wrapper .panel1 {
-  background-color: #0367A6;
-  border-radius: 15px;
-  padding: 10px;
-  height: 250px;
-}
-
-.main .overall-view .gradient-pattern .pannel-wrapper .panel1 ul {
-  list-style-type: square;
-}
-
-.main .overall-view .gradient-pattern .pannel-wrapper .panel1 li {
-  font-size: 13px;
-}
-
-.main .overall-view .gradient-pattern .pannel-wrapper .panel2 {
-  background-color: #F2B705;
-  border-radius: 15px;
-  padding: 10px;
-  height: 250px;
-}
-
-.main .overall-view .gradient-pattern .pannel-wrapper .panel2 ul {
-  list-style-type: square;
-}
-
-.main .overall-view .gradient-pattern .pannel-wrapper .panel2 li {
-  font-size: 13px;
-}
-
-.main .overall-view .gradient-pattern .pannel-wrapper .panel3 {
-  background-color: #F27405;
-  border-radius: 15px;
-  padding: 10px;
-  height: 250px;
-}
-
-.main .overall-view .gradient-pattern .pannel-wrapper .panel3 ul {
-  list-style-type: square;
-}
-
-.main .overall-view .gradient-pattern .pannel-wrapper .panel3 li {
-  font-size: 13px;
-}
-
-.main .overall-view .gradient-pattern .pannel-wrapper .panel4 {
-  background-color: #4F7302;
-  border-radius: 15px;
-  padding: 10px;
-  height: 250px;
-}
-
-.main .overall-view .gradient-pattern .pannel-wrapper .panel4 ul {
-  list-style-type: square;
-}
-
-.main .overall-view .gradient-pattern .pannel-wrapper .panel4 li {
-  font-size: 13px;
-}
-/*# sourceMappingURL=NotreEcole.css.map */
+}/*# sourceMappingURL=NotreEcole.css.map */
