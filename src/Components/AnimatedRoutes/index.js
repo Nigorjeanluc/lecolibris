@@ -17,11 +17,11 @@ function AnimatedRoutes() {
     <AnimatePresence>
       <Routes location={location} key={location.pathname}>
         <Route path="/" element={<MainPage />} />
-        <Route path="/notre-ecole" element={<NotreEcole />} />
-        <Route path="/enseignement" element={<Enseignement />} />
-        <Route path="/vie-scolaire" element={<Enseignement />} />
-        <Route path="/inscription" element={<Inscription />} />
-        <Route path="/contact" element={<Enseignement />} />
+        <Route path="notre-ecole" element={<NotreEcole />} />
+        <Route path="enseignement" element={<Enseignement />} />
+        <Route path="vie-scolaire" element={<Enseignement />} />
+        <Route path="inscription" element={<Inscription />} />
+        <Route path="contact" element={<Enseignement />} />
       </Routes>
     </AnimatePresence>
   )
